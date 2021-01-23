@@ -21,7 +21,7 @@ spec:
         default: rendered
       - name: TEKTON_JINJA_IMAGE
         description: Image to use for tekton jinja task
-        default: 'quay.io/erikerlandson/tekton-jinja:latest'
+        default: 'quay.io/erikerlandson/tekton-jinja:0.1.0'
   workspaces:
     - name: output
       readOnly: false
